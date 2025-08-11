@@ -2,8 +2,8 @@
 
 class Book:
     def __init__(self, title, page_count):
-        self.title = title          # uses setter
-        self.page_count = page_count  # uses setter
+        self.title = title          
+        self.page_count = page_count  
 
     @property
     def title(self):
