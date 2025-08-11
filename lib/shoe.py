@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# Shoe class represents a shoe with a brand and size
 class Shoe:
     def __init__(self, brand, size):
         self.brand = brand

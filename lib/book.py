@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# Book class represents a book with a title and page count
 class Book:
     def __init__(self, title, page_count):
         self.title = title          
